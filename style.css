@@ -24,7 +24,7 @@ img{
     height: 8vh;
     border-radius: 50%;
     position: relative;
-    top: 5vh;
+    top: 3vh;
     left: 3vh;
     border: 1px solid blue;
     flex: 1;
@@ -47,4 +47,12 @@ img{
     margin: 2vw;
     border-radius: 5%;
     display: flex;
+}
+.cerca{
+    font-size: 2vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 1vh;
+    left: 3vw;
 }
