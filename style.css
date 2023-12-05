@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.div-principale{
+    display: flex;
+    height: 100vh;
+    padding: 0;
+}
+.div-side{
+    background-color: black;
+    height: 100vh;
+    flex: 1;
+    margin: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.div-centrale{
+    background-color: black;
+    height: 100vh;
+    flex: 4;
+    margin: 0;
+}
+img{
+    height: 8vh;
+    border-radius: 50%;
+    position: relative;
+    top: 5vh;
+    left: 3vh;
+    border: 1px solid blue;
+    flex: 1;
+}
+
+.h1-side{
+    color: aliceblue;
+    font-size: 3vh;
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 4;
+}
+.ricerca{
+    height: 7vh;
+    background-color: grey;
+    position: relative;
+    top: 5vh;
+    margin: 2vw;
+    border-radius: 5%;
+    display: flex;
+}
